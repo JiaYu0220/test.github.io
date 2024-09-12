@@ -7,18 +7,32 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <style>
-    .checkbox, .radio {
+    input[type="checkbox"], input[type="radio"] {
         font-size: 2rem;
-        padding: 6px 10px;
+        padding: 10px 18px;
         min-height: initial;
         box-sizing: border-box;
+        margin-bottom: 0;
+    line-height: 1;
+    text-align: start;
+    background: #fff;
+    color: #101010;
+    box-shadow: none;
+    margin-bottom: 0;
+    line-height: 1;
+    text-align: start;
+    background: #fff;
+    color: #101010;
+    box-shadow: none;
+    overflow: visible;
     }
 
     label {
-        font-size: 2rem;
+        font-size: .875rem;
         display: flex;
         align-items: center;
         gap: 10px;
+        margin-bottom: 10px;
     }
 </style>
 <body>
@@ -27,7 +41,7 @@
         <div class="group"><span class="headtop-icon icon-shopping_cart"></span><span class="pc-menu">購物車</span><b class="cart_items_amount">2</b></div>
         <span class="mobile-menu">購物車</span>
     </a>
-    <label for="a"><input class="checkbox" type="checkbox" name="" id="a">checkbox4</label>
+    <label for="a"><input class="checkbox" type="checkbox" name="" id="a">checkbox5</label>
     <label for="b"><input class="radio" type="radio" name="" id="b">radio</label>
 </body>
 <script src="./index.js"></script>
